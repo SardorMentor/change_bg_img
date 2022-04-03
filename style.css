@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.bg {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 500px 300px;
+  grid-gap: 20px;
+  min-height: 100vh;
+  overflow: hidden;
+  
+  background-image: url("https://images.unsplash.com/photo-1630074067370-21b4062fb534?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1826&q=80");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg > * {
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px;
+  border: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background: linear-gradient(to right, red, blue);
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
